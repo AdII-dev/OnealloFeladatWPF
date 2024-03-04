@@ -1,0 +1,16 @@
+﻿<Window x:Class="onallof.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:onallof"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="valasz" Content="Válaszod" HorizontalAlignment="Left" Margin="193,183,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="161,101,0,0" TextWrapping="Wrap" Text="Szeretnél egy kiskutyát?" VerticalAlignment="Top" Width="120" />
+        <Button Content="Választás" HorizontalAlignment="Left" Margin="195,140,0,0" VerticalAlignment="Top" Click="Gomb"/>
+        <ListBox x:Name="lbx1" HorizontalAlignment="Left" Height="105" Margin="174,251,0,0" VerticalAlignment="Top" Width="95" FontFamily="Times New Roman"/>
+        <TextBox x:Name="kutyaNev" HorizontalAlignment="Left" Margin="161,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>
